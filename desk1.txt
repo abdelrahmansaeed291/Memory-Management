@@ -1,0 +1,15 @@
+PID:1
+State:Finished
+PC:7
+Start:20
+End:34
+Variable:
+Variable:
+Variable:
+Instruction:semWait userInput
+Instruction:assign a input
+Instruction:assign b input
+Instruction:semSignal userInput
+Instruction:semWait userOutput
+Instruction:printFromTo a b
+Instruction:semSignal userOutput
